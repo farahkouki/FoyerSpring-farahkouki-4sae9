@@ -33,4 +33,5 @@ public class ChambreController {
     void deleteChambre(@PathVariable Long id){
         chambreService.deleteChambre(id);
     }
+    //farah
 }
