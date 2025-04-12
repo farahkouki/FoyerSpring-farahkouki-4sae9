@@ -75,17 +75,4 @@ Endpoint	Method	Description
 /api/foyers/{id}	PUT	Update residence
 /api/foyers/{id}	DELETE	Delete residence
 /api/foyers/assign	POST	Assign students to rooms
-🧪 Testing
-Run unit tests:
 
-bash
-Copy
-mvn test
-📊 Database Schema
-mermaid
-
-erDiagram
-    FOYER ||--o{ BLOC : contains
-    BLOC ||--o{ CHAMBRE : has
-    CHAMBRE ||--o{ RESERVATION : allocated
-    ETUDIANT ||--o{ RESERVATION : books
