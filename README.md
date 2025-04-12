@@ -55,24 +55,5 @@ FoyerSpring/
 - MySQL 8+
 - Maven 3.6+
 
-### Installation
-1. Clone the repository:
-  
-   git clone https://github.com/farahkouki/FoyerSpring-farahkouki-4sae9.git
-   cd FoyerSpring-farahkouki-4sae9
-Configure MySQL in application.properties:
 
-
-Build and run:
-
-
-mvn spring-boot:run
-📚 API Documentation
-Endpoint	Method	Description
-/api/foyers	GET	Get all residences
-/api/foyers/{id}	GET	Get residence by ID
-/api/foyers	POST	Create new residence
-/api/foyers/{id}	PUT	Update residence
-/api/foyers/{id}	DELETE	Delete residence
-/api/foyers/assign	POST	Assign students to rooms
 
